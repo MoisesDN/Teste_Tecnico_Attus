@@ -1,4 +1,4 @@
-package com.moisesdias.teste.model.enums;
+package com.moisesdias.teste.models.enums;
 
 public enum Estado {
 

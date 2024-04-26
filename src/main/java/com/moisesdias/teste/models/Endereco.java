@@ -1,5 +1,6 @@
 package com.moisesdias.teste.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.moisesdias.teste.models.enums.Estado;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -33,7 +34,6 @@ public class Endereco implements Serializable {
     private Integer cep;
 
     private Boolean principal;
-
 
     @ManyToOne
     @JoinColumn(name = "id_pessoa")
